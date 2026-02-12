@@ -1,0 +1,25 @@
+String.toUpperCase() --> Para mayusculas
+String.toLowerCase() --> Para minusculas
+String.compareToIgnoreCase() --> Para Ignorar Mayus y Min, devuelve un int.
+
+String.concat(String2) --> Para concatenar 2 Strings
+
+String s = new String(caracteres, 6, 4);-->	En el constructor, el primer parametro es el array de char
+											El segundo parametro es el caracter por el que comenzar
+											El tercer parametro es la cantidad de caracteres que contendra la cadena 
+											
+String s2 = new StringBuilder("Juan tiene ") --> Para crear un StringBuilder.
+
+.append(edad)--> Para añadir una variable.
+
+.append(" años")--> Para añadir texto.
+
+.toString();--> Para pasar a String.
+
+.subString(int inicioIndice, int finIndice) -->
+
+.split(String regex)  -->	Recibe como parámetro una expresión regular. 
+							Devuelve un array con los tokens que se obtienen al cortar según por el parser especificado con regex.
+
+.replaceAll(String regex, String textoReemplazo) --> Reemplaza, en un nuevo String, todas las coincidencias de regex con el texto de reemplazo.
+
